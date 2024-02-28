@@ -1,5 +1,5 @@
 import React from "react";
-import SignForm from "../components/form";
+import SignForm from "../Components/Form";
 import Logo from "../assets/images/login-img.png";
 
 const Login = () => {
