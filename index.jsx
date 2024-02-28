@@ -7,7 +7,6 @@ import { createBrowserRouter, Router, RouterProvider } from "react-router-dom";
 import SignUp from "./src/pages/Signup.jsx";
 import ForgotPwd from "./src/pages/ForgotPwd.jsx";
 import LandingPage from "./src/pages/Landing.jsx";
-import Error from "./src/components/Error";
 import FAQS from "./src/pages/Faqs/Faqs";
 import Dashboard from "./src/pages/Dashboard/Dashboard";
 import Contactus from "./src/pages/Contact/Contactus";
@@ -15,38 +14,31 @@ import Contactus from "./src/pages/Contact/Contactus";
 const appRoute = createBrowserRouter([
   {
     path: "/",
-    element: <LandingPage />,
-    errorElement: <Error/>
+    element: <LandingPage />
   },
   {
     path: "/login",
-    element: <Login/>,
-    errorElement: <Error/>
+    element: <Login/>
   },
   {
     path: "/register",
-    element: <SignUp />,
-    errorElement: <Error/>
+    element: <SignUp />
   },
   {
     path: "/forgotpwd",
-    element: <ForgotPwd />,
-    errorElement: <Error/>
+    element: <ForgotPwd />
   },
   {
     path:"/contact us",
-    element: <Contactus></Contactus>,
-    errorElement: <Error/>
+    element: <Contactus></Contactus>
   },
   {
     path:"/faqs",
-    element: <FAQS></FAQS>,
-    errorElement: <Error/>
+    element: <FAQS></FAQS>
   },
   {
     path:"/",
-    element: <Dashboard></Dashboard>,
-    errorElement: <Error/>
+    element: <Dashboard></Dashboard>
   },
 ]);
 
