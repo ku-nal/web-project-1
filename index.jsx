@@ -7,7 +7,7 @@ import { createBrowserRouter, Router, RouterProvider } from "react-router-dom";
 import SignUp from "./src/pages/Signup.jsx";
 import ForgotPwd from "./src/pages/ForgotPwd.jsx";
 import LandingPage from "./src/pages/Landing.jsx";
-import Error from "./src/components/error.jsx";
+import Error from "./src/components/Error";
 import FAQS from "./src/pages/Faqs/Faqs";
 import Dashboard from "./src/pages/Dashboard/Dashboard";
 import Contactus from "./src/pages/Contact/Contactus";
