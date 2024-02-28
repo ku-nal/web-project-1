@@ -1,6 +1,6 @@
 import React from "react";
-import { FirstName, LastName, SignUp, SignInInstead } from "./signup-input";
-import { Email, Pwd } from "./input";
+import { FirstName, LastName, SignUp, SignInInstead } from "./Signup-input";
+import { Email, Pwd } from "./Input";
 import { useState } from "react";
 
 const SignUpForm = () => {

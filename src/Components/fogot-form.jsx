@@ -1,4 +1,4 @@
-import { Email } from "./input";
+import { Email } from "./Input";
 import BackLogo from "../assets/images/back-logo-1.webp";
 import {Link} from "react-router-dom";
 

@@ -1,4 +1,4 @@
-import { Email, Pwd, GoogleSignIn, CreateAccount } from "./input";
+import { Email, Pwd, GoogleSignIn, CreateAccount } from "./Input";
 import { Link } from "react-router-dom";
 import React, { useState } from "react";
 
