@@ -1,5 +1,5 @@
 import React from "react";
-import {ForgotForm} from "../components/fogot-form";
+import {ForgotForm} from "../Components/Fogot-form";
 import Logo from "../assets/images/login-img.png";
 
 const ForgotPwd = () => {

@@ -1,8 +1,7 @@
 import React from 'react';
-import NavBar from '../components/navbar';
-import LandingBody from '../components/landing-body';
-import About from '../components/about';
-import Contact from '../components/contact';
+import NavBar from '../Components/NavBar';
+import LandingBody from '../Components/Landing-body';
+import About from '../Components/About';
 
 const LandingPage = () =>{
     return(

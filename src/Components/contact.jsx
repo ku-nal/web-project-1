@@ -1,7 +1,7 @@
 import React from "react";
 import img from "../assets/images/contact.svg";
-import Heading from "./heading";
-import Button from "./button";
+import Heading from "./Heading";
+import Button from "./Button";
 
 const Contact = () => {
   return (
